@@ -1,6 +1,6 @@
 ## yaynay.js - A tiny UA blacklist helper
 
-yaynay.js helps you block features from specific User Agents based on a blacklist you provide.
+__yaynay.js__ helps you block features from specific User Agents based on a blacklist you provide.
 
 Although yaynay is inspired by modernizr and yepnope.js, don't expect it to really detect _or_ load anything other than what is says on the label ;-)
 
