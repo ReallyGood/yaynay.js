@@ -3,12 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<script src="yaynay.js"></script>
+	<script src="yaynay.min.js"></script>
 	<script>
-		console.log(yaynay('volume'), yaynay('timetravel') );
+		yaynay.features.awesomeStuff = [/MSIE/];
+		yaynay.features.timetravel = [/\w/];
+		if( !yaynay('timetravel') ) alert('sorry, your browser does not support time travel (yet)');
+		if( yaynay('awesomeStuff') ) {
+			alert("but hey, at least you don't use IE. Check your console to learn more.");
+			console.log('yaynay.features:', yaynay.features);
+		} else {
+			alert('...and it sucks');
+		}
 	</script>
 </head>
 <body>
-	Hello there
 </body>
 </html>
