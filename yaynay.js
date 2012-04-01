@@ -1,4 +1,4 @@
-/*! yaynay.js, MIT by http://reallygood.co.il */
+/*! https://github.com/ReallyGood/yaynay.js, MIT by http://reallygood.co.il */
 /*
 	After including this (or better yet, the minified) file, specify arrays of disallowed UA regexps, for example:
 	  yaynay.features.volume = [/ipad/, /iphone/, /ipod/, /android(?!.*?mobile)/, /android.*?mobile/, /blackberry/, /windows ce/, /webos/, /playbook/];
