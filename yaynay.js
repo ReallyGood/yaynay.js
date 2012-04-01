@@ -1,15 +1,4 @@
-/*! https://github.com/ReallyGood/yaynay.js, MIT by http://reallygood.co.il */
-/*
-	After including this (or better yet, the minified) file, specify arrays of disallowed UA regexps, for example:
-	  yaynay.features.volume = [/ipad/, /iphone/, /ipod/, /android(?!.*?mobile)/, /android.*?mobile/, /blackberry/, /windows ce/, /webos/, /playbook/];
-	  yaynay.features.timetravel = [/\w/];
-
-	then you can happily do
-	  if( !yaynay('timetravel') ) alert('no time travel for you, sir!');
-
-	Notice: yaynay isn't "magic" - It doesn't add any classes, variables or whatever, nowhere, but instead just works.
-*/
-
+/*! https://github.com/ReallyGood/yaynay.js <-- docs here, MIT by http://reallygood.co.il */
 var yaynay = (function(){
 	var features = {},
 		test = function(feature){
