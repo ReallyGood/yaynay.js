@@ -18,7 +18,7 @@ if( !yaynay('timetravel') ) alert('no time travel for you, sir!');
 Notice: yaynay isn't "magic" - It doesn't add any classes, variables or whatever, nowhere, but instead just works.
 
 Also note yaynay works as a blacklist - A feature is assumed to be allowed unless proven otherwise.
-
+For your convenience, a comperehensive community-edited list of UA regexes can be found here at the [ua-parser project](https://raw.github.com/tobie/ua-parser/master/regexes.yaml).
 ## Quick Use
 Just paste the following and yaynay will be available:
 
